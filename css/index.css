@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    padding: 50px;
+}
+
+i.fa-plus-circle{
+    color: green;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#primeiro, #selecionar{
+    width: 30%;
+    height: 40px;
+}
+
+#selecionar{
+    margin-top: 10px;
+}

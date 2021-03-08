@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= 'utf-8'>
+        
+        <title> Popup </title>
+
+        <link rel= 'stylesheet' href= 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+        <link rel= 'stylesheet' href= 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+        <link rel= 'stylesheet' href= 'css/index.css'>
+    </head>
+
+    <body>
+        <h1> <strong> PopUp </strong> </h1>
+
+        <!-- Coloquei um ícone de adicionar, mas pode ser qualquer coisa, o importante é executar o método do JS, eu executei com o click do mouse no ícone -->
+        <i class= 'fa fa-plus-circle' onclick= 'popup()'> </i> <br>
+
+        <!-- Input que vai receber o valor do popup, coloquei um id para ficar mais fácil de pegar ele no JavaScript -->
+        <input type= 'text' id= 'primeiro' disabled placeholder= 'Clique no botão para adicionar'>
+
+        <br>
+
+        <!-- Select que vai receber e selecionar a nova opção do popup, coloquei id também para ficar fácil de pegar no JavaScript -->
+        <select id= 'selecionar'>
+            <option> Adicione um valor </option>
+        </select>
+
+        <script src= 'js/index.js'> </script>
+    </body>
+</html>

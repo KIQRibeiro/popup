@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= 'UTF-8'>
+
+        <title> Popup </title>
+
+        <link rel= 'stylesheet' href= 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+        <link rel= 'stylesheet' href= 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+        <link rel= 'stylesheet' href= 'css/popup.css'>
+    </head>
+
+    <body>
+        <h1> <strong> Enviando para Página Anterior </strong> </h1>
+
+        <!--
+            Input que você vai inserir o texto para enviar na página anterior, só fiz como exemplo,
+            pode colocar da forma que quiser
+
+            Coloquei também id para ficar mais fácil de pegar no JavaScript, mas não é obrigatório,
+            o importante é conseguir pegar o valor no JavaScript com a pesquisa
+        -->
+        <input type= 'text' placeholder= 'Digite um texto' class= 'form-control' id= 'texto'>
+
+        <!--
+            Aqui também não é obrigatório ser um botão, pode ser qualquer coisa que
+            consiga executar o método no JavaScript, eu coloquei o click do mouse
+            no botão
+
+            - O primeiro botão envia o valor digitado no input para o input da página
+            anterior e fecha a página;
+            - O segundo botão adiciona o valor digitado nas opções do select da página
+            anterior, seleciona ele e fecha a página 
+        -->
+        <button class= 'btn btn-block btn-success' onclick= 'enviar()'> Enviar Valor para Input  </button>
+        <button class= 'btn btn-block btn-info' onclick= 'adicionar()'> Adicionar e Selecionar Opção no Select </button>
+
+        <script src= 'js/popup.js'> </script>
+    </body>
+</html>
